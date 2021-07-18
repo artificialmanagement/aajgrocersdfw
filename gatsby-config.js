@@ -10,12 +10,7 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-sitemap`,
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: "YOUR_GOOGLE_ANALYTICS_TRACKING_ID",
-      },
-    },
+  
     {
       resolve: `gatsby-source-filesystem`,
       options: {
